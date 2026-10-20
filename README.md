@@ -63,6 +63,7 @@ Le profil est activé **avant** `context.refresh()` pour que Spring puisse enreg
 ```powershell
 mvn test
 ```
+<img width="1357" height="320" alt="image" src="https://github.com/user-attachments/assets/9be175b7-c746-45cd-93f9-95c65c70cd4d" />
 
 Les tests couvrent les quatre cibles de `dao.target`, l'alias, `@Primary`, les profils et l'agrégation. Les classes métier ne contiennent aucun nom d'implémentation de DAO.
 
